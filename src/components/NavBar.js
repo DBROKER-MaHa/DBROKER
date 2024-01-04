@@ -1,20 +1,35 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import {Link} from 'react-router-dom'
+import logo from '../assets/logo.jpg'
 
 
 function NavBar() {
     return (
         <>
           
-          <Navbar bg="primary" data-bs-theme="dark">
+          <Navbar bg="black" data-bs-theme="dark" expand = 'lg' fixed="top" className='shadow  mb-5 bg-black'>
             <Container>
-              <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-              <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Navbar.Brand >
+                  <Link to ='/'>
+                    <img src={logo} alt="" style={{width:'200px', height:"75px"}} />
+                  </Link>
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="navbar-nav"/>
+              <Navbar.Collapse id = 'navbar-nav'>
+              <Nav className="ms-auto menu">
+                <Link className='menu-links fs-5' to="/">Home</Link>
+                <Link className='menu-links fs-5' to="/about">About Us</Link>
+                <Link className='menu-links fs-5' to="/services">Service</Link>
+                <Link className='menu-links fs-5' to="/services">New Project</Link>
+                <Link className='menu-links fs-5' to="/services">Contact Us</Link>
               </Nav>
+              <Nav className="ms-auto">
+                <button className="btn btn-1">Subscribe</button>
+              </Nav>
+              </Navbar.Collapse>
+              
             </Container>
           </Navbar>
     

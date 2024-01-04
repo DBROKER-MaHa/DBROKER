@@ -1,0 +1,94 @@
+export const newProject = [
+    {
+        id:1,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruy'
+    },
+    {
+        id:2,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruy'
+    },
+    {
+        id:3,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruy'
+    },
+    {
+        id:4,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruy'
+    },
+    {
+        id:5,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyrhawiuy'
+    },
+    {
+        id:6,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyrueyterytreyty'
+    },
+    {
+        id:7,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'new'
+    },
+    {
+        id:8,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruyidyfdiyg'
+    },
+    {
+        id:9,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruyifugygr'
+    },
+    {
+        id:10,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'new'
+    },
+    {
+        id:11,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'first'
+    },
+    {
+        id:12,
+        src:"https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg",
+        name:'dfygirgyruyifugygr'
+    },
+]
+export const bestDesign = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+]
