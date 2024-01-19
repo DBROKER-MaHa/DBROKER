@@ -4,7 +4,7 @@ import { Form, Card } from 'react-bootstrap';
 import '../index.js';
 import { Row, Col } from 'react-bootstrap';
 
-const Why_UsPage = () => {
+const FAQPage = () => {
   return (
 
     <div>
@@ -91,12 +91,12 @@ const Why_UsPage = () => {
   );
 };
 
-function Why_Us() {
+function FAQ() {
   return (
-    <div className="Why_Us">
-      <Why_UsPage />
+    <div className="FAQ">
+      <FAQPage />
     </div>
   );
 }
 
-export default Why_Us;
+export default FAQ;
