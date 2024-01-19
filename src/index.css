@@ -7,6 +7,9 @@ a {
   text-decoration: none;
   color: white;
 }
+li{
+  list-style: none;
+}
 .nav-section{
   position: sticky;
   top: 0;
@@ -20,12 +23,20 @@ a {
 .menu-links:hover {
   color: rgb(101, 169, 223);
 }
-.btn-1 {
+.btn-1{
   background-color: rgb(101, 169, 223);
   color: black;
 }
 .btn-1:hover {
   background-color: rgb(93, 137, 173);
+}
+/* .btn-2{
+  background-color: white;
+  border: 1px rgb(101, 169, 223);
+} */
+button.active{
+  background-color: rgb(101, 169, 223);
+  color: black;
 }
 .new-project {
   height: 75px;
@@ -49,6 +60,7 @@ a {
 .card-img {
   width: 100%;
   height: 20rem;
+  cursor: pointer;
 }
 /* pagination */
 .pagination-custom .page-item {
@@ -61,7 +73,22 @@ a {
 .feature{
   background-color: rgb(93, 137, 173);
 }
-
+/* detail project */
+.image{
+  width: 90%;
+  height:40rem;
+  margin: 25px auto;
+  border-radius: 20px;
+}
+.info-list{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+}
+/* footer */
+footer{
+  margin-top: 60px;
+  padding: 40px 0 40px 0;
+}
 /* responsive */
 @media screen and (max-width: 1200px) {
   .cards {
