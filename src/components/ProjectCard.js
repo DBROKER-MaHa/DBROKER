@@ -23,27 +23,25 @@ function ProjectCard() {
       <div className="cards">
         {currentCardItems.map((item) => (
           <Card className="card-item" key={item.id}>
-           <div className="position-relative">
-           <Card.Img
-              variant="top"
-              src={item.src}
-             className="card-img"
-            />
-            <div className="position-absolute top-0 end-0 p-2 feature">Featured</div>
-           </div>
-            <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-            <ListGroup className="list-group-flush">
-              <ListGroup.Item>Cras justo odio</ListGroup.Item>
-              <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-              <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-            </ListGroup>
-          </Card>
+          <div className="position-relative">
+          <Card.Img
+             variant="top"
+             src={item.src}
+            className="card-img"
+           />
+           
+           <div className="position-absolute top-0 end-0 p-2 feature">Featured</div>
+          </div>
+           <Card.Body>
+             <Card.Title>{item.name}</Card.Title>
+             
+           </Card.Body>
+           <ListGroup className="list-group-flush">
+             <ListGroup.Item>Estimated Price: {item.price}</ListGroup.Item>
+             <ListGroup.Item>Location: {item.location}</ListGroup.Item>
+             <ListGroup.Item>Float Area: {item.area}</ListGroup.Item>
+           </ListGroup>
+         </Card>
         ))}
       </div>
       <div className="d-flex justify-content-center my-3">

@@ -9,7 +9,7 @@ function NavBar() {
     return (
         <>
           
-          <Navbar bg="black" data-bs-theme="dark" expand = 'lg' fixed="top" className='shadow  mb-5 bg-black'>
+          <Navbar bg="black" data-bs-theme="dark" expand = 'lg' className='shadow bg-black'  style={{ height: '80px' }}>
             <Container>
               <Navbar.Brand >
                   <Link to ='/'>
@@ -22,7 +22,7 @@ function NavBar() {
                 <Link className='menu-links fs-5' to="/">Home</Link>
                 <Link className='menu-links fs-5' to="/about">About Us</Link>
                 <Link className='menu-links fs-5' to="/services">Service</Link>
-                <Link className='menu-links fs-5' to="/services">New Project</Link>
+                <Link className='menu-links fs-5' to="/newProject">New Project</Link>
                 <Link className='menu-links fs-5' to="/services">Contact Us</Link>
               </Nav>
               <Nav className="ms-auto">
