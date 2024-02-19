@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Why_Us from "./pages/Why_Us";
 import FAQ from "./pages/FAQ";
 import Developers from "./pages/Developers";
+import Dev from "./pages/Dev";
 
 import Service from "./pages/Service";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ function App() {
       <Route path="/Why_Us" element = {<Why_Us/>}/>
       <Route path="/FAQ" element = {<FAQ/>}/>
       <Route path="/Developers" element = {<Developers/>}/>
+      <Route path="/Dev" element = {<Dev/>}/>
 
       {/* <Route path="/about" element = {<About/>}/> */}
       <Route path="/services" element = {<Service/>}/>

@@ -256,3 +256,6 @@ footer{
   margin-bottom: 10px; /* Add some spacing between each list item */
 }
 
+.bg-blue {
+  background-color: rgb(23, 184, 233);
+}
