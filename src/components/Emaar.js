@@ -1,19 +1,19 @@
 import { Container, Card, ListGroup } from "react-bootstrap";
-import { newProject } from "../data/new";
+import { devDesign } from "../data/new";
 import React, { useState } from "react";
 import PagePagination from "./PagePagination";
 
 
 function ProjectCard() {
-  const itemsPerPage = 6;
+  const itemsPerPage = 15;
   const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(newProject.length / itemsPerPage);
+  const totalPages = Math.ceil(devDesign.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = currentPage * itemsPerPage;
 
-  const currentCardItems = newProject.slice(startIndex, endIndex);
+  const currentCardItems = devDesign.slice(startIndex, endIndex);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -27,7 +27,7 @@ function ProjectCard() {
            <Card.Img
               variant="top"
               src={item.src}
-             className="card-img"
+              className="card-img"
             />
             <div className="position-absolute top-0 end-0 p-2 feature">Featured</div>
            </div>
@@ -38,11 +38,11 @@ function ProjectCard() {
                 the bulk of the card's content.
               </Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            {/* <ListGroup className="list-group-flush">
               <ListGroup.Item>Cras justo odio</ListGroup.Item>
               <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
               <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-            </ListGroup>
+            </ListGroup> */}
           </Card>
         ))}
       </div>

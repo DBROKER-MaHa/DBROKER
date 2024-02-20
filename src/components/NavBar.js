@@ -24,19 +24,15 @@ function NavBar() {
               <Nav className="ms-auto menu">
                 <Link className='menu-links fs-5' to="/">Home</Link>
                 <Link className='menu-links fs-5' to="/services">Service</Link>
-                <NavDropdown title="Developers" className="menu-links fs-5">
-                <NavDropdown.Item as={Link} to="/Developers">EMAAR PROPERTIES</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Why_Us">Why Us?</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Why_Us">Why Us?</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Why_Us">Why Us?</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Why_Us">Why Us?</NavDropdown.Item>
 
-              </NavDropdown>
-                <Link className='menu-links fs-5' to="/services">New Project</Link>
+
+                
+                {/* <Link className='menu-links fs-5' to="/services">New Project</Link> */}
                 <NavDropdown title="About Us" className="menu-links fs-5">
                 <NavDropdown.Item as={Link} to="/FAQ">FAQ</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/Why_Us">Why Us?</NavDropdown.Item>
               </NavDropdown>
+              <Link className='menu-links fs-5' to="/Dev">Developers</Link>
 
                 <Link className='menu-links fs-5' to="/newProject">New Project</Link>
                 <Link className='menu-links fs-5' to="/services">Contact Us</Link>
