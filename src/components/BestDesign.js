@@ -1,27 +1,23 @@
-import { bestDesign } from '../data/new'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { agent } from "../data/new";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 function BestDesign() {
   return (
     <Container>
       <Row className="g-4">
-         {bestDesign.map((item)=>(
-            <Col md={4} key={item.id}>
-                <Card >
-                <Card.Body>
-                    <Card.Img
-                     
-                     src={item.src}
-                    className="card-img"/>
-                    <Card.Title className='text-center mt-2'>{item.place}</Card.Title>
-                    
-                </Card.Body>
+        {agent.map((item) => (
+          <Col md={4} key={item.id}>
+            <Card className="border border-4 border-primary position-relative">
+              <>
+                <img src={item.src} alt = '' className="agent-img" />
+                <Card.Title className='position-absolute bottom-0 bg-white text-center w-100 p-2 fs-4'>{item.name}</Card.Title>
+              </>
             </Card>
-            </Col>
-         ))}
+          </Col>
+        ))}
       </Row>
     </Container>
-  )
+  );
 }
 
-export default BestDesign
+export default BestDesign;

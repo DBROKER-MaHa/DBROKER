@@ -7,13 +7,20 @@ a {
   text-decoration: none;
   color: white;
 }
-li{
+li {
   list-style: none;
 }
-.nav-section{
-  position: sticky;
+
+.sticky {
+  position: fixed;
   top: 0;
+  width: 100%;
+  z-index: 1000;
+  animation-duration: 0.7s;
+  animation-name: fadeInDown;
+  animation-timing-function: ease-out;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -23,42 +30,94 @@ li{
 .menu-links:hover {
   color: rgb(101, 169, 223);
 }
-.btn-1{
+.btn-1 {
   background-color: rgb(101, 169, 223);
   color: black;
 }
+
 .btn-1:hover {
   background-color: rgb(93, 137, 173);
 }
-/* .btn-2{
-  background-color: white;
-  border: 1px rgb(101, 169, 223);
-} */
-button.active{
+.sec-newProjects {
+  margin-top: 5rem;
+}
+.col-width{
+ 
+  max-width: 350px;
+  width: 100%;
+  height: 350px;
+}
+.about-iconContainer{
+  max-width: 100px;
+  width: 100%;
+  height: 100px;
+  border-radius: 50%;
+  background-color:rgb(101, 169, 223) ;
+}
+.about-icon{
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+  color: red;
+}
+.about-list{
+  margin-left: 4px;
+}
+.landing {
+  /* background-color: rgb(156, 28, 28); */
+  opacity: 0.6;
+}
+button.active {
   background-color: rgb(101, 169, 223);
   color: black;
 }
 .new-project {
-  height: 75px;
+  margin: 0 auto;
+  height: 150px;
+  max-width: 650px;
+  width: 100%;
 }
+.card-read {
+  max-width: 200px;
+  width: 100%;
+  color: #000;
+  background-color: rgba(247, 245, 244, 0.7);
+  cursor: pointer;
+  border-radius: 50px;
+}
+
 .cards {
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1rem;
 }
-.card-item {
+.card-item,
+.card-container {
   width: 25rem;
-    
 }
-.container{
+.container {
   text-align: center;
+
+}
+.card-container {
+  overflow: hidden;
+ 
 }
 
 .card-img {
   width: 100%;
   height: 20rem;
-  cursor: pointer;
+  /* background-color: #000; */
+  /* opacity: 0.6; */
+}
+
+.card-container .card-img {
+  transition: 0.5s all ease-in-out;
+}
+
+.card-container:hover img {
+  transform: scale(1.2);
 }
 /* pagination */
 .pagination-custom .page-item {
@@ -68,22 +127,61 @@ button.active{
   background-color: rgb(93, 137, 173);
   color: white;
 }
-.feature{
+.feature {
   background-color: rgb(93, 137, 173);
 }
 /* detail project */
-.image{
+.image {
   width: 90%;
-  height:40rem;
+  height: 40rem;
   margin: 25px auto;
   border-radius: 20px;
 }
-.info-list{
+.info-list {
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, auto);
 }
+/* agent */
+.agent-img{
+  height: 30rem;
+  
+}
+
+/* seravices
+ */
+ 
+.search-bar{
+  max-width: 600px;
+  width: 100%;
+  height: 70px;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+.search-bar:focus{
+    outline: none;
+}
+.btn-serach {
+  max-width: 200px;
+  width: 100%;
+  padding: 10px;
+  height: 70px;
+}
+.filter{
+  max-width: 600px;
+  width: 100%;
+  margin-top: 10px;
+}
+.btn-filter{
+  max-width: 150px;
+  width: 100%;
+  color: #000;
+  background-color: rgba(247, 245, 244, 0.7);
+  cursor: pointer;
+  border-radius: 50px;
+}
+
 /* footer */
-footer{
+footer {
   margin-top: 60px;
   padding: 40px 0 40px 0;
 }
@@ -105,37 +203,22 @@ footer{
   }
 }
 
-
-
-
-
-
 /* mah */
-.hy{
-
+.hy {
   margin: 170px;
   margin-top: 70px;
-
 }
 
 .about-us-card {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .card-text {
   /* padding: 20px; */
   margin: 30px;
-
-}
-
-.Card.Title{
-  padding: 20px; 
-
-  /* margin: 30px; */
-
 }
 
 
@@ -152,24 +235,20 @@ footer{
   /* Add your styles for each <p> element here */
   margin-left: 70px;
   margin-top: 40px;
-
 }
 
- .content6{
+.content6 {
   text-align: center;
-} 
+}
 
 .list {
   list-style-type: disc;
   margin-left: 70px;
   margin-top: 30px;
-
 }
 
-.py{
+.py {
   margin-right: 50px;
-
-
 }
 
 .content1 {
@@ -177,9 +256,8 @@ footer{
 }
 
 .card-item1 {
-  width: 20rem;  
-  margin: 10px; 
- 
+  width: 20rem;
+  margin: 10px;
 }
 
 .line {
@@ -192,11 +270,9 @@ footer{
   text-align: center;
 }
 
-
 .custom-card {
   margin-top: 120px;
   /* margin: 120px; */
-
 }
 
 .custom-card .card-body {
@@ -206,7 +282,6 @@ footer{
 .custom-card p {
   margin-top: 50px;
   margin-left: 50px;
-
 }
 
 .custom-card img {
@@ -214,7 +289,6 @@ footer{
   /* height: auto; */
   margin-top: 10px;
   margin-left: 300px;
-
 }
 
 .container3 {
@@ -222,21 +296,16 @@ footer{
   margin-top: 20px;
 }
 
-.para{
+.para {
   margin-top: 10px;
-
 }
 
-.par{
+.par {
   margin-top: 0px;
-
 }
-.one{
-
+.one {
   margin-left: 50px;
   margin-right: 50px;
-
-
 }
 
 .container4 {

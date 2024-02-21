@@ -1,11 +1,12 @@
 import Title from "../components/Title"
+import ProjectCard from "../components/ProjectCard"
 
 function Service() {
   return (
     <>
-    <Title title = 'Service'/>
+    <Title title = 'Discover Our Services'/>
     <section className="container">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit doloremque a! Iusto doloremque, necessitatibus nam ipsam cupiditate iure eius minus facere possimus sint blanditiis suscipit similique voluptatem ratione reprehenderit.
+    <ProjectCard />
     </section>
     </>
   )
