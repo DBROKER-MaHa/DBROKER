@@ -380,7 +380,6 @@ export const devDesign = [
     },
     
 ]
-
 export const services =  [
     {
         id:1,
@@ -399,3 +398,150 @@ export const services =  [
     },
 
 ]
+
+
+// EmaarProperties
+
+
+export const beachFront = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+]
+
+
+export const downTown = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+]
+
+
+export const dubaiCreek = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+]
+
+export const dubaiHeels = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1"
+    },
+]
+
