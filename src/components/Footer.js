@@ -26,7 +26,7 @@ function Footer() {
              <li><Link className='fs-6' to="/about">About Us</Link></li>
              <li><Link className='fs-6' to="/services">Service</Link></li>
              <li><Link className='fs-6' to="/services">New Project</Link></li>
-             <li><Link className='fs-6' to="/services">Contact Us</Link></li>
+             <li><Link className='fs-6' to="/Contact">Contact Us</Link></li>
         </ul>
         </div>
         <div className='text-center fs-3'>

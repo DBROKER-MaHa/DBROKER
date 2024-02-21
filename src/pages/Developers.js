@@ -1,6 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Emaar from "../components/Emaar";
+import { Container, Card, Button } from "react-bootstrap";
+// import { devDesign } from "../data/new";
+import { beachFront } from "../data/new";
+import { downTown } from "../data/new";
+import { dubaiCreek } from "../data/new";
+import { dubaiHeels } from "../data/new";
+
 
 const EmaarProperties = () => {
   return (
@@ -51,34 +56,94 @@ const EmaarProperties = () => {
   <p2 className="centered">
     <span style={{ marginLeft: '50px', color: 'blue' }}>{Array(80).fill('-').join('')}</span> EMAAR BEACHFRONT <span style={{ marginLeft: '0px', color: 'blue' }}>{Array(80).fill('-').join('')}</span>
   </p2>
-  <Emaar />
-</section>
+  <Container>
+      <div className="cards">
+        {beachFront.map((item) => (
+          <Card className="card-item1" key={item.id}>
+            <div className="position-relative">
+              <Card.Img variant="top" src={item.src} className="card-img" />
+            </div> 
+            
+            <Card.Body>
+              <Card.Title>{item.name}</Card.Title>
+              <Card.Text style={{ textAlign: "left" }}>{item.text}</Card.Text>           
+              </Card.Body>
+          </Card>
+        ))}
+      </div>
+    </Container>
+    </section>
 
 
 
-  
+
 <section className="py">
   <p2 className="centered">
     <span style={{ marginLeft: '50px', color: 'blue' }}>{Array(80).fill('-').join('')}</span> DOWNTOWN DUBAI <span style={{ marginLeft: '0px', color: 'blue' }}>{Array(80).fill('-').join('')}</span>
   </p2>
-  <Emaar />
-</section>
+  <Container>
+      <div className="cards">
+        {downTown.map((item) => (
+          <Card className="card-item1" key={item.id}>
+            <div className="position-relative">
+              <Card.Img variant="top" src={item.src} className="card-img" />
+            </div> 
+            
+            <Card.Body>
+              <Card.Title>{item.name}</Card.Title>
+              <Card.Text style={{ textAlign: "left" }}>{item.text}</Card.Text>           
+              </Card.Body>
+          </Card>
+        ))}
+      </div>
+    </Container>
+    </section> 
 
  
 <section className="py">
   <p2 className="centered">
     <span style={{ marginLeft: '50px', color: 'blue' }}>{Array(80).fill('-').join('')}</span> DUBAI CREEK HARBOUR <span style={{ marginLeft: '0px', color: 'blue' }}>{Array(80).fill('-').join('')}</span>
   </p2>
-  <Emaar />
-</section>
+  <Container>
+      <div className="cards">
+        {dubaiCreek.map((item,index) => (
+          <Card className="card-item1" key={item.id}>
+            <div className="position-relative">
+              <Card.Img variant="top" src={item.src} className="card-img" />
+            </div> 
+            
+            <Card.Body>
+              <Card.Title>{item.name}</Card.Title>
+              <Card.Text style={{ textAlign: "left" }}>{item.text}</Card.Text>           
+              </Card.Body>
+          </Card>
+        ))}
+      </div>
+    </Container>
+    </section>
 
 
 <section className="py">
   <p2 className="centered">
     <span style={{ marginLeft: '50px', color: 'blue' }}>{Array(80).fill('-').join('')}</span> DUBAI HILLS ESTATE <span style={{ marginLeft: '0px', color: 'blue' }}>{Array(80).fill('-').join('')}</span>
   </p2>
-  <Emaar />
-</section>
+  <Container>
+      <div className="cards">
+        {dubaiHeels.map((item,index) => (
+          <Card className="card-item1" key={item.id}>
+            <div className="position-relative">
+              <Card.Img variant="top" src={item.src} className="card-img" />
+            </div> 
+            
+            <Card.Body>
+              <Card.Title>{item.name}</Card.Title>
+              <Card.Text style={{ textAlign: "left" }}>{item.text}</Card.Text>           
+              </Card.Body>
+          </Card>
+        ))}
+      </div>
+    </Container>
+    </section>
 
   
 
