@@ -6,7 +6,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft',
+        type:'studio'
 
     },
     {
@@ -16,7 +17,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft',
+        type:'studio'
         
     },
     {
@@ -27,6 +29,7 @@ export const newProject = [
         location:'UAE, Dubai',
         price:'12,000,000',
         area:'1,878 sqft'
+        , type:'studio'
     },
     {
         id:4,
@@ -35,7 +38,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:5,
@@ -44,7 +48,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:6,
@@ -53,7 +58,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:7,
@@ -62,7 +68,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:8,
@@ -71,7 +78,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:9,
@@ -80,7 +88,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:10,
@@ -89,7 +98,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:11,
@@ -97,7 +107,8 @@ export const newProject = [
         name:'first',  desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:12,
@@ -105,7 +116,8 @@ export const newProject = [
         name:'dfygirgyruyifugygr',  desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:13,
@@ -114,7 +126,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:14,
@@ -123,7 +136,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:15,
@@ -132,7 +146,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:16,
@@ -140,7 +155,8 @@ export const newProject = [
         name:'dfygirgyruy',  desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
 
     },
     {
@@ -150,7 +166,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:18,
@@ -159,7 +176,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:19,
@@ -168,7 +186,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:20,
@@ -177,7 +196,8 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft', type:'office'
+
     },
     {
         id:21,
@@ -186,7 +206,7 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft',type:'appartment'
     },
     {
         id:22,
@@ -195,7 +215,7 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft',type:'appartment'
     },
     {
         id:23,
@@ -204,7 +224,7 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft',type:'appartment'
     },
     {
         id:24,
@@ -213,47 +233,43 @@ export const newProject = [
         desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus venenatis curae himenaeos porttitor habitasse, hendrerit sagittis eleifend tristique dignissim donec per consequat parturient imperdiet nullam',
         location:'UAE, Dubai',
         price:'12,000,000',
-        area:'1,878 sqft'
+        area:'1,878 sqft',type:'appartment'
     },
 ]
-export const bestDesign = [
+export const agent = [
     {
         id:1,
-        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440084/samples/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343_pkzxz8.jpg',
+        name:"Ms.Jane"
 
         
     },
     {
         id:2,
-        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440113/samples/portrait-young-boy-professional-look_785361-73_xxsal4.jpg',
+        name:"Mr.John"
     },
     {
         id:3,
-        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
-    },
-    {
-        id:4,
-        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
-    },
-    {
-        id:5,
-        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
-    },
-    {
-        id:6,
-        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
-    },
+        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440084/samples/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343_pkzxz8.jpg',
+       name:"Ms.Jane"
+    }
+    // {
+    //     id:4,
+    //     src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+    //     place:"Lorem 1"
+    // },
+    // {
+    //     id:5,
+    //     src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+    //     place:"Lorem 1"
+    // },
+    // {
+    //     id:6,
+    //     src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+    //     place:"Lorem 1"
+    // },
 ]
-
-
-
-
 export const devDesign = [
     {
         id:1,
@@ -363,4 +379,23 @@ export const devDesign = [
         text:"Being one of the leading developing company in Dubai, Meraas has built many iconic and high demanding projects including Bluewaters Residences, BVLGARI Resort & Residences Dubai, Port De La Mer, Sur La Mer and City Walk"
     },
     
+]
+
+export const services =  [
+    {
+        id:1,
+        type:'studio'
+
+    },
+    {
+        id:2,
+        type:'appartment'
+
+    },
+    {
+        id:3,
+        type:'office'
+
+    },
+
 ]

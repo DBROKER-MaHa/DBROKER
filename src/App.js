@@ -15,6 +15,7 @@ import { newProject } from "../src/data/new";
 function App() {
   return (
   <Router>
+   
     <div className="d-flex justify-content-between flex-column vh-100">
     <NavBar/>
     <Routes>
