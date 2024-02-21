@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Dev() {
   const itemPaths = [
     "/Developers",
-    "/FAQ",
+    // "/FAQ",
    
   ];
 
@@ -17,7 +17,7 @@ function Dev() {
           <Card className="card-item1" key={item.id}>
             <div className="position-relative">
               <Card.Img variant="top" src={item.src} className="card-img" />
-            </div>
+            </div> 
             
             <Card.Body>
               <Card.Title>{item.name}</Card.Title>
@@ -30,6 +30,8 @@ function Dev() {
         ))}
       </div>
     </Container>
+
+    
   );
 }
 
