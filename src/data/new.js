@@ -239,22 +239,25 @@ export const newProject = [
 export const agent = [
     {
         id:1,
-        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440084/samples/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343_pkzxz8.jpg',
-        name:"Ms.Jane",
-        bio:'dfyg7ety7eyw'
+        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708577677/photo_5953872047732015099_x_ziecbk.jpg',
+        name:"Temor Sidig",
+        role:'Partner',
+        bio:'With a robust foundation in property management that began during my collegiate years, I have progressively honed my expertise in managing high net worth individual property portfolios on an international scale since 2014. Demonstrating a remarkable trajectory in the field, by 2016 I had adeptly managed a portfolio exceeding 110 million dirhams, showcasing not only a talent for real estate investment but also a deep understanding of global market dynamics.Today, my role has expanded beyond the operational aspects of property management into strategic positions, where I serve on the board of several eminent investment firms as well as an internationally recognized and awarded bank. Additionally, I have taken a pivotal step in co-founding DBrokers, where my extensive experience and strategic insight help guide our firm to new heights in the real estate market. My journey reflects a commitment to excellence and a forward-thinking approach, ensuring that our clients and partners receive unparalleled expertise and visionary leadership.'
 
         
     },
     {
         id:2,
         src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440113/samples/portrait-young-boy-professional-look_785361-73_xxsal4.jpg',
-        name:"Mr.John",
+        name:"Ms.Fasi Haile",
+        role:"Adminstrater",
         bio:'dfyg7ety7eyw'
     },
     {
         id:3,
-        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440084/samples/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343_pkzxz8.jpg',
-       name:"Ms.Jane",
+        src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708578024/photo_5953872047732015100_y_kmmzqr.jpg',
+       name:"Waldemar Harder",
+       role:"General Manager",
        bio:'With 14 years of invaluable experience within the banking sector, I bring a wealth of financial acumen and a proven track record of successful investments. For the past two years, I have seamlessly transitioned into the dynamic realm of Dubais real estate market, cultivating a profound understanding and expertise in various real estate developments.My focus lies in navigating both the Offplan and Secondary market landscapes, where I have demonstrated a keen ability to identify lucrative opportunities and deliver exceptional results. Through extensive interactions with diverse real estate developers, I have honed my skills and insights, contributing to my comprehensive knowledge of the intricacies within the industry.Currently serving as the Co-founder and General Manager of DBROKER Real Estate Brokerage LLC, I am committed to leveraging my extensive background to provide unparalleled services in the real estate domain. Our team at DBROKER is dedicated to delivering excellence, ensuring our clients benefit from our collective experience, market intelligence, and a commitment to success. As we continue to make significant strides in the real estate sector, I am excited to lead DBROKER towards new heights of achievement and client satisfaction.'
     }
     // {

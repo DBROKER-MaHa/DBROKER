@@ -1,19 +1,22 @@
 import { Container, Card, ListGroup } from "react-bootstrap";
-import { newProject } from "../data/new";
+// import { newProject } from "../data/new";
 import React, { useState } from "react";
 import PagePagination from "./PagePagination";
 
 
-function ProjectCard() {
+function ProjectCard({category}) {
+ 
+
+
   const itemsPerPage = 6;
   const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(newProject.length / itemsPerPage);
+  const totalPages = Math.ceil(category.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = currentPage * itemsPerPage;
 
-  const currentCardItems = newProject.slice(startIndex, endIndex);
+  const currentCardItems = category.slice(startIndex, endIndex);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);

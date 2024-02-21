@@ -5,6 +5,8 @@ import { newProject } from "../data/new";
 import AboutUs from "../components/AboutUs";
 import BestDesign from "../components/BestDesign";
 import { FaArrowRight } from "react-icons/fa";
+
+
 function Home() {
   const extractedData = newProject.slice(0, 6);
   return (

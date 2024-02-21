@@ -2,14 +2,15 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { Form, Card } from 'react-bootstrap'; 
 import '../index.js';  
+import Title from '../components/Title'
+
  
 const ContactPage = () => { 
   return ( 
 <div>
     <section className="a">
-    <div className="bg-blue  text-white new-project d-flex align-items-center">
-          <h2 className="container">CONTACT US</h2>
-        </div>
+    <Title title="Contact Us"/>
+  
       </section> 
 
 
