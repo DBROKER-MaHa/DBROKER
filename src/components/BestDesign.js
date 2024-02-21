@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { agent } from "../data/new";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
@@ -8,10 +9,12 @@ function BestDesign() {
         {agent.map((item) => (
           <Col md={4} key={item.id}>
             <Card className="border border-4 border-primary position-relative">
-              <>
+              {/*  */}
                 <img src={item.src} alt = '' className="agent-img" />
-                <Card.Title className='position-absolute bottom-0 bg-white text-center w-100 p-2 fs-4'>{item.name}</Card.Title>
-              </>
+                {/* </Link> */}
+                <Link  to={`/user/${item.id}`}>
+                <Card.Title className='position-absolute bottom-0 bg-white text-center text-black w-100 p-2 fs-4'>{item.name}</Card.Title>
+                </Link>
             </Card>
           </Col>
         ))}
@@ -19,5 +22,6 @@ function BestDesign() {
     </Container>
   );
 }
+
 
 export default BestDesign;

@@ -240,19 +240,22 @@ export const agent = [
     {
         id:1,
         src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440084/samples/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343_pkzxz8.jpg',
-        name:"Ms.Jane"
+        name:"Ms.Jane",
+        bio:'dfyg7ety7eyw'
 
         
     },
     {
         id:2,
         src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440113/samples/portrait-young-boy-professional-look_785361-73_xxsal4.jpg',
-        name:"Mr.John"
+        name:"Mr.John",
+        bio:'dfyg7ety7eyw'
     },
     {
         id:3,
         src:'https://res.cloudinary.com/dvfszvcxa/image/upload/v1708440084/samples/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343_pkzxz8.jpg',
-       name:"Ms.Jane"
+       name:"Ms.Jane",
+       bio:'With 14 years of invaluable experience within the banking sector, I bring a wealth of financial acumen and a proven track record of successful investments. For the past two years, I have seamlessly transitioned into the dynamic realm of Dubais real estate market, cultivating a profound understanding and expertise in various real estate developments.My focus lies in navigating both the Offplan and Secondary market landscapes, where I have demonstrated a keen ability to identify lucrative opportunities and deliver exceptional results. Through extensive interactions with diverse real estate developers, I have honed my skills and insights, contributing to my comprehensive knowledge of the intricacies within the industry.Currently serving as the Co-founder and General Manager of DBROKER Real Estate Brokerage LLC, I am committed to leveraging my extensive background to provide unparalleled services in the real estate domain. Our team at DBROKER is dedicated to delivering excellence, ensuring our clients benefit from our collective experience, market intelligence, and a commitment to success. As we continue to make significant strides in the real estate sector, I am excited to lead DBROKER towards new heights of achievement and client satisfaction.'
     }
     // {
     //     id:4,
