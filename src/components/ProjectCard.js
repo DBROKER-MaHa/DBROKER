@@ -2,6 +2,7 @@ import { Container, Card, ListGroup } from "react-bootstrap";
 // import { newProject } from "../data/new";
 import React, { useState } from "react";
 import PagePagination from "./PagePagination";
+import { Link } from "react-router-dom";
 
 
 function ProjectCard({category}) {
@@ -27,13 +28,15 @@ function ProjectCard({category}) {
         {currentCardItems.map((item) => (
           <Card className="card-item" key={item.id}>
           <div className="position-relative">
+          <Link to={`/newProject/${item.id}`}>
           <Card.Img
              variant="top"
              src={item.src}
             className="card-img"
            />
+           </Link>
            
-           <div className="position-absolute top-0 end-0 p-2 feature">Featured</div>
+           <div className="position-absolute top-0 end-0 p-2 feature">{item.type}</div>
           </div>
            <Card.Body>
              <Card.Title>{item.name}</Card.Title>

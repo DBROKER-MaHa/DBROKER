@@ -29,7 +29,7 @@ function NavBar() {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbar-nav"/>
               <Navbar.Collapse id = 'navbar-nav'>
-              <Nav className="ms-auto menu">
+              <Nav className="ms-auto d-flex justify-content-between menu">
                 <Link className='menu-links fs-5' to="/">Home</Link>
                 <Link className='menu-links fs-5' to="/services">Service</Link>
                 <NavDropdown title="About Us" className="menu-links fs-5">

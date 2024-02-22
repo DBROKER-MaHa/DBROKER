@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { FaInstagram, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 function User({ user }) {
   let { id } = useParams();
@@ -6,31 +7,33 @@ function User({ user }) {
   const userInfo = user.find((project) => projectId === project.id);
 
   return (
-    <div className="container mb-6 ">
-      <div className="row w-100 mt-4 ">
-        <div className="col-md-2 col-sm-1 w-50">
-          <div className=" position-relative">
-            <figure>
+    <div className="container m-6 w-50 ">
+      <div className="d-flex flex-column mt-6 card user-container">
+          <div className="d-flex  bg-black justify-content-around">
               <img
-                className="user-img"
+                className="user-img w-50  "
                 src={userInfo.src}
                 alt="user profile pic"
               />
-            </figure>
-            <div className=" justify-end mt-60  ">
-              <h2 className=" position-absolute bottom-0 start-50">{userInfo.name}</h2>
-              {/* <p>{login}</p> */}
+            <div className="d-flex flex-column justify-content-around">
+            <h1 className="text-white text-center">{userInfo.name}-<h3 className="d-inline">{userInfo.role}</h3></h1>
+            <div className="user-contact d-flex justify-content-around">
+              <FaInstagram className="text-white"/>
+              <FaTwitter className="text-white"/>
+              <FaWhatsapp className="text-white"/>
             </div>
-          </div>
+            </div>
+          
+          
         </div>
-        <div className="col-md-2 col-sm-1 w-50 text-start border-primary border-5">
-          <div className="mb-4">
-            <h1 className="">{userInfo.name}-<h3 className="d-inline">{userInfo.role}</h3></h1>
-            <p className="fs-6 text-justify">
-              <span className="fs-4">Bio</span> : {userInfo.bio}
+        <div className="user-bio text-start">
+         
+           
+            <p className="fs-6 m-7 text-justify">
+              {userInfo.bio}
               
             </p>
-          </div>
+         
         </div>
       </div>
     </div>

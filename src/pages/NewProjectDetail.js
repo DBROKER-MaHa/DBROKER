@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import Title from "../components/Title";
-// import { newProject } from "../data/new";
 
 function NewProjectDetail({ newProject }) {
   let { id } = useParams();
@@ -20,11 +19,11 @@ function NewProjectDetail({ newProject }) {
     <>
     <Title title = 'Prorety Detail'/>
       <section className="container">
-        <img src={projectInfo.src} alt={projectInfo.name} className="image" />
-        <h3>{projectInfo.name}</h3>
-        <p>{projectInfo.location}</p>
-        <div>
-          <div className="links">
+        <img src={projectInfo.src} alt={projectInfo.name} className="image w-100 " />
+        <h3 className="text-center">{projectInfo.name}</h3>
+        <p className="text-center">{projectInfo.location}</p>
+        <>
+          <div className="links text-center">
             <button
               onClick={() => handleButtonClick("Content1")}
               className={`btn ${activeButton === "Content1" ? "active" : ""}`}
@@ -67,7 +66,7 @@ function NewProjectDetail({ newProject }) {
               </div>
             )}
           </div>
-        </div>
+        </>
       </section>
     </>
   );
