@@ -27,10 +27,10 @@ function ProjectCard({ category }) {
           <Card className="card-item" key={item.id}>
             <div className="position-relative">
               <Link to={`/newProject/${item.id}`}>
-                <Card.Img variant="top" src={item.src} className="card-img" />
+                <Card.Img variant="top" src={item.src} className="card-img project-img" />
               </Link>
 
-              <div className="position-absolute top-0 end-0 p-2 feature">
+              <div className="position-absolute top-0 end-0 p-2 type">
                 {item.type}
               </div>
             </div>

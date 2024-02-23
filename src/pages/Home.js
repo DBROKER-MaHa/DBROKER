@@ -50,7 +50,7 @@ Together, we envision a future where <span className="bold">DBROKER</span>, Real
               <h2 className="text-center">Our Vision</h2>
              <div className="d-flex justify-content-center">
              <div class="card-space">
-    <div class="card">
+    <div class="card-1">
       <div class="face front">
         <h3>Pioneering Excellence</h3>
       </div>
@@ -61,7 +61,7 @@ Together, we envision a future where <span className="bold">DBROKER</span>, Real
     </div>
   </div>
              <div class="card-space">
-    <div class="card">
+    <div class="card-1">
       <div class="face front">
         <h3>Elevating Real Estate</h3>
       </div>
@@ -72,7 +72,7 @@ Together, we envision a future where <span className="bold">DBROKER</span>, Real
     </div>
   </div>
              <div class="card-space">
-    <div class="card">
+    <div class="card-1">
       <div class="face front">
         <h3>Your Dream Property Journey Starts Here</h3>
       </div>
@@ -100,7 +100,7 @@ Together, we envision a future where <span className="bold">DBROKER</span>, Real
             <Card className="card-item" key={item.id}>
               <div className="position-relative card-container">
                 <Link to={`/newProject/${item.id}`}>
-                  <Card.Img variant="top" src={item.src} className="card-img w-100  home-newImage" />
+                  <Card.Img variant="top" src={item.src} className="card-img project-img w-100  home-newImage" />
                 </Link>
 
                 <div className="position-absolute top-0 fs-3 p-2 ">

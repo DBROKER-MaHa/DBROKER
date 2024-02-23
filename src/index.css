@@ -72,6 +72,8 @@ li {
 .card-container {
   width: 25rem;
 }
+
+
 .card-read {
   background-color: rgba(247, 245, 244, 0.7);
   cursor: pointer;
@@ -80,16 +82,19 @@ li {
 .card-container {
   overflow: hidden;
 }
-.card-img {
-  height: 20rem;
-}
 .card-container .card-img {
   transition: 0.5s all ease-in-out;
+}
+.project-img{
+  height: 20rem;
+}
+.card-title{
+  padding: 5px 5px;
 }
 .card-container:hover img {
   transform: scale(1.2);
 }
-.home-contant, .feature{
+.home-contant, .type{
   background-color: rgb(101, 169, 223);
 }
 /* detail project */
@@ -127,11 +132,11 @@ li {
 .scroll-image{
   transition: transform 0.3s ease; 
 }
-.card-space:hover .card {
+.card-space:hover .card-1 {
   transform: rotateY(-180deg);
 }
 
-.card {
+.card-1 {
   border-radius: 10px;
   height: 300px;
   margin: 10px;
@@ -260,7 +265,7 @@ footer {
     flex-direction: column;
   }
 }
-=======
+
 
  
 /* mah */ 
