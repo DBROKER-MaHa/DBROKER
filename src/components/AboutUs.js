@@ -33,14 +33,13 @@ function AboutUs() {
             </li>
           </ul>
         </div>
-        <div className="col-md-4   d-flex align-items-center flex-column  about-item">
-          <div className="about-iconContainer d-flex align-items-center justify-content-center ">
-            <img
-              src="https://res.cloudinary.com/dvfszvcxa/image/upload/v1708435233/samples/service-market-studies-icon-outline-style-vector-web-design-isolated-white-background-217290045_lmwqve.jpg"
-              className="about-icon"
-              alt=""
-            />
-          </div>
+
+
+        
+        <div className="col-md-4 col-width  d-flex align-items-center flex-column ">
+        <div className="about-iconContainer d-flex align-items-center justify-content-center ">
+        <img src="https://res.cloudinary.com/dvfszvcxa/image/upload/v1708435233/samples/service-market-studies-icon-outline-style-vector-web-design-isolated-white-background-217290045_lmwqve.jpg" className="about-icon" alt="" /></div>
+
           <h5 className="my-3 fs-4">Expert Market Knowledge and Services</h5>
           <ul>
             <li>

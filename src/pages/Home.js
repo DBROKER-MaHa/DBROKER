@@ -1,3 +1,4 @@
+
 import Landing from "../components/Landing";
 import { useState, useEffect } from "react";
 import { Form, Card } from 'react-bootstrap'; 
@@ -157,5 +158,6 @@ Together, we envision a future where <span className="bold">DBROKER</span>, Real
     </>
   );
 }
+
 
 export default Home;
