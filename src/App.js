@@ -29,7 +29,7 @@ import Dev from "./pages/Dev";
 import User from "./pages/User";
 import Service from "./pages/Service";
 import Footer from "./components/Footer";
-import NewProject from "./pages/NewProject";
+
 import NewProjectDetail from "./pages/NewProjectDetail";
 import { newProject } from "../src/data/new";
 import {agent} from "../src/data/new"
@@ -71,7 +71,6 @@ function App() {
 
       {/* <Route path="/about" element = {<About/>}/> */}
       <Route path="/services" element = {<Service/>}/>
-      <Route path="/newProject" element = {<NewProject/>}/>
       <Route path="/newProject/:id" element = {<NewProjectDetail newProject = {newProject }/>}/>
       <Route  path = "/user/:id" element = {<User user = {agent}/>}/>
     </Routes>

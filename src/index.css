@@ -63,6 +63,10 @@ li {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1rem;
 }
+.card-item:hover{
+  border:2px solid rgb(101, 169, 223);
+  /* transform: scale(1.004); */
+}
 .card-item,
 .card-container {
   width: 25rem;
@@ -104,6 +108,57 @@ li {
   background-color: rgb(23, 184, 233);
   border: none;
   color: white;
+}
+/* mission and vission */
+.m-image{
+  max-width: 600px;
+  width: 100%;
+}
+.m-title{
+  margin-bottom: 20px;
+}
+.bold{
+  font-weight: bolder;
+}
+.justify{
+  text-align: justify;
+}
+.scroll-image{
+  transition: transform 0.3s ease; 
+}
+.card-space:hover .card {
+  transform: rotateY(-180deg);
+}
+
+.card {
+  border-radius: 10px;
+  height: 300px;
+  margin: 10px;
+  width: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.face {
+  border-radius: 10px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+  background-color: rgb(101, 169, 223);
+  padding: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.face.front {
+  text-align: center;
+  z-index: 20;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: rotateY(0deg);
+}
+.face.back {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 /* agent */
 .agent-img {
@@ -160,6 +215,15 @@ li {
 footer {
   margin-top: 60px;
   padding: 40px 0 40px 0;
+}
+/* notfound */
+.notFound-text{
+  font-size: 8rem;
+}
+.btn-notFound{
+  background-color: rgb(101, 169, 223);
+  padding: 10px;
+  border-radius: 50px;
 }
 /* responsive */
 @media screen and (max-width: 1300px) {

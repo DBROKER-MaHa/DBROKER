@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import { newProject } from "../data/new";
+import NotFound from "../components/NotFound";
 
 function Service() {
   const [category, setCategory] = useState(newProject);
   const [searchQuery, setSearchQuery] = useState("");
+  const [activeButton, setActiveButton] = useState("All");
 
   const handleBtns = (e) => {
     const word = e.target.value;
@@ -12,12 +14,15 @@ function Service() {
 
     if (word === "All") {
       filteredProjects = newProject;
+      
     } else {
       filteredProjects = newProject.filter((item) => item.type === word.toLowerCase());
     }
 
     setCategory(filteredProjects);
+    setActiveButton(word); 
   };
+ 
 
   const handleSearch = (e) => {
     const query = e.target.value;
@@ -28,6 +33,8 @@ function Service() {
   const filteredProjects = category.filter((project) =>
     project.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
+ 
 
   return (
     <>
@@ -52,21 +59,25 @@ function Service() {
             <form classsName = 'd-flex flex-column ' >
              <div>
              <input type="text" className='search-bar w-80  border-0' onChange={handleSearch} placeholder="Search"/>
-              {/* <button className='btn-1 btn-serach border-0 fs-5'>Search</button> */}
+             
               </div> 
               <div className="filter d-flex
               justify-content-between">
-                <button type='button' value="All"  onClick={handleBtns} className =  'btn-filter border-0 p-1 fs-4'>All</button>
-                <button type='button' value="Studio"  onClick={handleBtns} className='btn-filter border-0 p-1 fs-4'>Studio</button>
-                <button  type='button' value="Appartment" onClick={handleBtns} className='btn-filter border-0 p-1 fs-4'>Appartment</button>
-                <button type='button' value="Office"  onClick={handleBtns} className='btn-filter border-0 p-1 fs-4'>Office</button>
+                <button type='button' value="All"  onClick={handleBtns} className = {`btn-filter border-0 p-1 fs-4 ${activeButton === 'All'?'active':''}`}>All</button>
+                <button type='button' value="Studio"  onClick={handleBtns} className={`btn-filter border-0 p-1 fs-4 ${activeButton === 'Studio'?'active':''}`}>Studio</button>
+                <button  type='button' value="Appartment" onClick={handleBtns} className={`btn-filter border-0 p-1 fs-4 ${activeButton === 'Appartment'?'active':''}`}>Appartment</button>
+                <button type='button' value="Office"  onClick={handleBtns} className={`btn-filter border-0 p-1 fs-4 ${activeButton === 'Office'?'active':''}`}>Office</button>
               </div>
               </form>
            </div>
 </div>
-    <section className="container">
-    <ProjectCard category={filteredProjects} />
-    </section>
+<section className="container">
+        {filteredProjects.length > 0 ? (
+          <ProjectCard category={filteredProjects} />
+        ) : (
+          <NotFound />
+        )}
+      </section>
     </>
   )
 }

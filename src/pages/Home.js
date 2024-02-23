@@ -1,4 +1,5 @@
 import Landing from "../components/Landing";
+import { useState, useEffect } from "react";
 import { Form, Card } from 'react-bootstrap'; 
 import { Link } from "react-router-dom";
 import { newProject } from "../data/new";
@@ -9,10 +10,80 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Home() {
   const extractedData = newProject.slice(0, 6);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  const shift = Math.min(0, scrollPosition - 100); 
   return (
     <>
       <Landing />
-
+      <section className = "sec-newProjects">
+            <div className="container d-flex justify-content-between">
+            <div className = "w-50 scroll-image" style={{ transform: `translateX(${shift}px)` }}>
+                <img src="https://res.cloudinary.com/dvfszvcxa/image/upload/v1708770877/yellow-foot-residential-building-oa-lab_6_zn5iwo.jpg" alt="" className="m-image"/>
+              </div>
+              <div className = "w-50" >
+                <h2 className="fs-1 m-title">
+                  Our Mission
+                </h2>
+                <p className="justify">At <span className="bold">DBROKER</span> Real Estate Brokerage, our ethos is to be smart and reliable in all that we do. Our mission is to save our clients time, while satisfying their needs and exceeding their expectations. As a trusted real estate broker, we are dedicated to meeting the unique needs of each client and providing exceptional service in the ever-evolving real estate industry."
+Having over 30 years of experience in the financial and real estate sector and with an unwavering dedication to integrity, transparency, and professionalism, we aim to create a positive impact on their lives and the communities we serve. 
+Our team of passionate and driven professionals is committed to delivering exceptional results, building long-lasting relationships, and leaving a lasting legacy of excellence.
+We strive investors in achieving their goals of addressing Return on Investment (ROI) and Capital Appreciation in the real estate industry.
+Together, we envision a future where <span className="bold">DBROKER</span>, Real Estate Brokerage LLC is synonymous with trust, innovation, and success. We are driven by our collective passion to transform lives, one property at a time, and we are honored to be a part of our clients' journey towards a brighter future.
+</p>
+              </div>
+            </div>
+            <div className="container  sec-newProjects">
+              <h2 className="text-center">Our Vision</h2>
+             <div className="d-flex justify-content-center">
+             <div class="card-space">
+    <div class="card">
+      <div class="face front">
+        <h3>Pioneering Excellence</h3>
+      </div>
+      <div class="face back">
+        <p>To be the leading real estate brokerage firm in the industry, driven by our unwavering passion for excellence and innovation.
+</p>
+      </div>
+    </div>
+  </div>
+             <div class="card-space">
+    <div class="card">
+      <div class="face front">
+        <h3>Elevating Real Estate</h3>
+      </div>
+      <div class="face back">
+        <p>To be recognized as the premier real estate brokerage firm, setting the highest standards of professionalism and integrity in the industry. We aim to provide exceptional service and expertise, ensuring the satisfaction of our clients and establishing long-term relationships built on trust.
+</p>
+      </div>
+    </div>
+  </div>
+             <div class="card-space">
+    <div class="card">
+      <div class="face front">
+        <h3>Your Dream Property Journey Starts Here</h3>
+      </div>
+      <div class="face back">
+        <p>To be the go-to real estate brokerage for clients seeking a stress-free and enjoyable experience in buying or selling their dream properties. We aim to create a casual and friendly environment where our clients feel comfortable and confident in their real estate decisions.
+</p>
+      </div>
+    </div>
+  </div>
+             </div>
+            </div>
+      </section>
       <section className="py-7 sec-newProjects">
         <div className=" w-50 container text-center d-flex flex-column align-items-center"
         >

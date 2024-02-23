@@ -37,8 +37,6 @@ function NavBar() {
                 <NavDropdown.Item as={Link} to="/Why_Us">Why Us?</NavDropdown.Item>
               </NavDropdown>
               <Link className='menu-links fs-5' to="/Dev">Developers</Link>
-
-                {/* <Link className='menu-links fs-5' to="/newProject">New Project</Link> */}
                 <Link className='menu-links fs-5' to="/Contact">Contact Us</Link>
               </Nav>
               <Nav className="ms-auto">
