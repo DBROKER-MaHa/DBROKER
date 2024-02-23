@@ -51,8 +51,8 @@ function Service() {
            <h2 className = 'fs-1 text-white fw-bolder text-center'>Discover Our Services</h2>
             <form classsName = 'd-flex flex-column ' >
              <div>
-             <input type="text" className='search-bar border-0' onChange={handleSearch} placeholder="Search"/>
-              {/* <button className='btn-1 btn-serach border-0 fs-5'>Search</button> */}
+             <input type="text" className='search-bar w-80  border-0' onChange={handleSearch} placeholder="Search"/>
+              
               </div> 
               <div className="filter d-flex
               justify-content-between">

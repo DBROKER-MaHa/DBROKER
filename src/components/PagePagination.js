@@ -7,7 +7,7 @@ const PagePagination = ({ totalPages, currentPage, onPageChange }) => {
       }
     };
   return (
-    <Pagination className='pagination-custom'>
+    <Pagination className='w-10'>
         <Pagination.Prev
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}

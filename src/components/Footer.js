@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram } from 'react-icons/fa'
 function Footer() {
   return (
     <footer  className="bg-black text-white ">
-      <div className='container d-flex p-10 justify-content-between md:flex-column'>
+      <div className='container d-flex p-10 justify-content-between md:flex-column footer-container'>
         <div>
         <img src={logo} alt="" style={{width:'200px', height:"75px"}} />
         <p style={{width:'300px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolores corporis, maxime excepturi blanditiis optio illo unde placeat inventore totam veniam cupiditate deleniti officiis beatae iusto sed libero quod voluptates reprehenderit? Libero, neque voluptas.</p>
