@@ -413,24 +413,31 @@ export const beachFront = [
     {
         id:1,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
-
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
         
     },
     {
         id:2,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:3,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:4,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:5,
@@ -440,7 +447,9 @@ export const beachFront = [
     {
         id:6,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
 ]
 
@@ -449,34 +458,45 @@ export const downTown = [
     {
         id:1,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
-
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
         
     },
     {
         id:2,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:3,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:4,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:5,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:6,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
 ]
 
@@ -485,14 +505,18 @@ export const dubaiCreek = [
     {
         id:1,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
 
         
     },
     {
         id:2,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:3,
@@ -502,17 +526,23 @@ export const dubaiCreek = [
     {
         id:4,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:5,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:6,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
 ]
 
@@ -520,34 +550,468 @@ export const dubaiHeels = [
     {
         id:1,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
 
         
     },
     {
         id:2,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:3,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:4,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:5,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
     {
         id:6,
         src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
-        place:"Lorem 1"
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
     },
 ]
 
+export const ellington = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+    {
+        id:7,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+    
+    {
+        id:8,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+    
+    {
+        id:9,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+
+]
+
+
+export const Nakheel = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]
+
+
+export const Binghatti = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]
+
+
+export const Mag = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]
+export const Select_Group = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]
+
+
+
+export const Azizi = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]
+
+
+export const Iman = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]
+
+export const Reportage = [
+    {
+        id:1,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+
+        
+    },
+    {
+        id:2,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:3,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:4,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:5,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+    {
+        id:6,
+        src:'https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_640.jpg',
+        place:"Lorem 1",
+        name:'Deyaar',
+        text:"Being one of the",
+    },
+
+   
+]

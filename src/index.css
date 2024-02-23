@@ -1,413 +1,508 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-li {
-  list-style: none;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  animation-duration: 0.7s;
-  animation-name: fadeInDown;
-  animation-timing-function: ease-out;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-between;
-  gap: 2.5rem;
-}
-
-.menu-links:hover {
-  color: rgb(101, 169, 223);
-}
-.btn-1 {
-  background-color: rgb(101, 169, 223);
-  color: black;
-}
-
-.btn-1:hover {
-  background-color: rgb(93, 137, 173);
-}
-.sec-newProjects {
-  margin-top: 5rem;
-}
-.col-width{
+* { 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+} 
+a { 
+  text-decoration: none; 
+  color: white; 
+} 
+li { 
+  list-style: none; 
+} 
  
-  max-width: 350px;
-  width: 100%;
-  height: 350px;
-}
-.about-iconContainer{
-  max-width: 100px;
-  width: 100%;
-  height: 100px;
-  border-radius: 50%;
-  background-color:rgb(101, 169, 223) ;
-}
-.about-icon{
-  max-width: 50px;
-  width: 100%;
-  height: 50px;
-  color: red;
-}
-.about-list{
-  margin-left: 4px;
-}
-.landing {
-  /* background-color: rgb(156, 28, 28); */
-  opacity: 0.6;
-}
-button.active {
-  background-color: rgb(101, 169, 223);
-  color: black;
-}
-.new-project {
-  margin: 0 auto;
-  height: 150px;
-  max-width: 650px;
-  width: 100%;
-}
-.card-read {
-  max-width: 200px;
-  width: 100%;
-  color: #000;
-  background-color: rgba(247, 245, 244, 0.7);
-  cursor: pointer;
-  border-radius: 50px;
-}
-
-.cards {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 1rem;
-}
-.card-item,
-.card-container {
-  width: 25rem;
-}
-.container {
-  text-align: center;
-
-}
-.card-container {
-  overflow: hidden;
+.sticky { 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  animation-duration: 0.7s; 
+  animation-name: fadeInDown; 
+  animation-timing-function: ease-out; 
+} 
  
-}
+.menu { 
+  display: flex; 
+  justify-content: space-between; 
+  gap: 2.5rem; 
+} 
+ 
+.menu-links:hover { 
+  color: rgb(101, 169, 223); 
+} 
+.btn-1 { 
+  background-color: rgb(101, 169, 223); 
+  color: black; 
+} 
+ 
+.btn-1:hover { 
+  background-color: rgb(93, 137, 173); 
+} 
+.sec-newProjects { 
+  margin-top: 5rem; 
+} 
+.col-width{ 
+  
+  max-width: 350px; 
+  width: 100%; 
+  height: 350px; 
+} 
+.about-iconContainer{ 
+  max-width: 100px; 
+  width: 100%; 
+  height: 100px; 
+  border-radius: 50%; 
+  background-color:rgb(101, 169, 223) ; 
+} 
+.about-icon{ 
+  max-width: 50px; 
+  width: 100%; 
+  height: 50px; 
+  color: red; 
+} 
+.about-list{ 
+  margin-left: 4px; 
+} 
+.landing { 
+  /* background-color: rgb(156, 28, 28); */ 
+  opacity: 0.6; 
+} 
+button.active { 
+  background-color: rgb(101, 169, 223); 
+  color: black; 
+} 
+.new-project { 
+  margin: 0 auto; 
+  height: 150px; 
+  max-width: 650px; 
+  width: 100%; 
+} 
+.card-read { 
+  max-width: 200px; 
+  width: 100%; 
+  color: #000; 
+  background-color: rgba(247, 245, 244, 0.7); 
+  cursor: pointer; 
+  border-radius: 50px; 
+} 
+ 
+.cards { 
+  margin-top: 20px; 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  row-gap: 1rem; 
+} 
+.card-item, 
+.card-container { 
+  width: 25rem; 
+} 
+.container { 
+  text-align: center; 
+ 
+} 
+.card-container { 
+  overflow: hidden; 
+  
+} 
+ 
+.card-img { 
+  width: 100%; 
+  height: 20rem; 
+  /* background-color: #000; */ 
+  /* opacity: 0.6; */ 
+} 
+ 
+.card-container .card-img { 
+  transition: 0.5s all ease-in-out; 
+} 
+ 
+.card-container:hover img { 
+  transform: scale(1.2); 
+} 
+/* pagination */ 
+.pagination-custom .page-item { 
+  width: 50px; 
+} 
+.pagination-custom .page-item.active .page-link { 
+  background-color: rgb(93, 137, 173); 
+  color: white; 
+} 
+.feature { 
+  background-color: rgb(93, 137, 173); 
+} 
+/* detail project */ 
+.image { 
+  width: 90%; 
+  height: 40rem; 
+  margin: 25px auto; 
+  border-radius: 20px; 
+} 
+.info-list { 
+  display: grid; 
+  grid-template-columns: repeat(3, auto); 
+} 
+/* agent */ 
+.agent-img{ 
+  height: 30rem;  
+} 
+.user-img{ 
+  height:35rem; 
+  max-width: 550px; 
+  width: 100%; 
+} 
+.bg-image { 
+  /* The image used */ 
+  /* background-image: url("photographer.jpg"); */ 
+ 
+  /* Add the blur effect */ 
+  filter: blur(8px); 
+  -webkit-filter: blur(8px); 
+ 
+  /* Full height */ 
+  height: 100%; 
+ 
+  /* Center and scale the image nicely */ 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  max-width: 700px; 
+  width: 100%; 
+} 
+ 
+/* Position text in the middle of the page/image */ 
+.bg-text { 
+  background-color: rgb(0,0,0); /* Fallback color */ 
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */ 
+  color: white; 
+  font-weight: bold; 
+  border: 3px solid #f1f1f1; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 2; 
+  width: 80%; 
+  padding: 20px; 
+  text-align: center; 
+} 
+ 
+ 
+/* seravices 
+ */ 
+  
+.search-bar{ 
+  max-width: 800px; 
+  width: 100%; 
+  height: 70px; 
+  margin-right: 20px; 
+  padding: 0 10px; 
+} 
+.search-bar:focus{ 
+    outline: none; 
+} 
+.search-bar::placeholder{ 
+  font-size: 24px; 
+  color: #000; 
+} 
+.filter{ 
+  max-width: 800px; 
+  width: 100%; 
+  margin-top: 10px; 
+} 
+.btn-filter{ 
+  max-width: 150px; 
+  width: 100%; 
+  color: #000; 
+  background-color: rgba(247, 245, 244, 0.7); 
+  cursor: pointer; 
+  border-radius: 50px; 
+} 
+.active{ 
+  background-color: rgb(101, 169, 223); 
+  color: black; 
+} 
+ 
+/* footer */ 
+footer { 
+  margin-top: 60px; 
+  padding: 40px 0 40px 0; 
+} 
+/* responsive */ 
+@media screen and (max-width: 1200px) { 
+  .cards { 
+    grid-template-columns: repeat(2, 1fr); 
+  } 
+} 
+@media screen and (max-width: 992px) { 
+  .card-item { 
+    width: 20rem; 
+  } 
+} 
+@media screen and
+(max-width: 576px) { 
+  .cards { 
+    grid-template-columns: repeat(1, 1fr); 
+    justify-items: center; 
+  } 
+} 
+ 
+/* mah */ 
+.hy { 
+  margin: 170px; 
+  margin-top: 70px; 
+} 
+ 
+.about-us-card { 
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+} 
+ 
+.card-text { 
+  /* padding: 20px; */ 
+  margin: 30px; 
+} 
+ 
+ 
+.content { 
+  margin: 200px; 
+} 
+ 
+.paragraph { 
+  /* Add your styles for each <p> element here */ 
+  margin-left: 70px; 
+} 
+ 
+.paragraph1 { 
+  /* Add your styles for each <p> element here */ 
+  margin-left: 70px; 
+  margin-top: 40px; 
+} 
+ 
+.content6 { 
+  text-align: center; 
+  margin-top: 30px; 
 
-.card-img {
-  width: 100%;
-  height: 20rem;
-  /* background-color: #000; */
-  /* opacity: 0.6; */
-}
+} 
+ 
+.list { 
+  list-style-type: disc; 
+  margin-left: 70px; 
+  margin-top: 30px; 
+} 
+ 
+.py { 
+  margin-right: 50px; 
+} 
+ 
+.content1 { 
+  margin-top: 75px; 
+} 
+ 
+.card-item1 { 
+  width: 20rem; 
+  margin: 10px; 
+} 
+ 
+.line { 
+  height: 1px; 
+  background-color: black; 
+  margin: 10px 0; 
+} 
+ 
+.centered { 
+  text-align: center; 
+} 
+ 
+.custom-card { 
+  margin-top: 120px; 
+  /* margin: 120px; */ 
+} 
+ 
+.custom-card .card-body { 
+  margin: 10px; 
+} 
+ 
+.custom-card p { 
+  margin-top: 50px; 
+  margin-left: 50px; 
+} 
+ 
+.custom-card img { 
+  /* max-width: 100%; */ 
+  /* height: auto; */ 
+  margin-top: 10px; 
+  margin-left: 300px; 
+} 
+ 
+.container3 { 
+  text-align: center; 
+  margin-top: 20px; 
+} 
+ 
+.para { 
+  margin-top: 10px; 
+} 
+ 
+.par { 
+  margin-top: 0px; 
+} 
+.one { 
+  margin-left: 50px; 
+  margin-right: 50px; 
+} 
+ 
+.container4 { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;  
+} 
+ 
+.container4 h1 { 
+  text-align: center; 
+} 
+ 
+.container4 ul li { 
+  margin-bottom: 10px;  
+} 
+ 
+.bg-blue { 
+  background-color: rgb(23, 184, 233); 
+} 
+ 
+.a{ 
+  margin-bottom: 100px; 
+ 
+} 
+ 
+ 
+.contact-card { 
+  border: 1px solid #daceda;  
+  border-radius: 8px;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);  
+  padding: 20px;  
+  margin-bottom: 20px;  
+} 
+ 
+.contact-card h5 { 
+  color: #333;  
+  font-weight: bold;  
+ 
+} 
+ 
+.contact-card button { 
+  margin-top: 15px;  
+} 
+ 
+.contact-card p { 
+  margin-bottom: 5px;  
+  font-size: 16px;  
+} 
+ 
+.contact-card p:last-child { 
+  margin-bottom: 0; 
+} 
+ 
+.form-control { 
+  /* border-width: 1px; */ 
+  border-style: solid;  
+  border-color: #999595; /* Customize the border color */ 
+} 
+ 
+/* .form-label { 
+  font-weight: bold; 
+} */
 
-.card-container .card-img {
-  transition: 0.5s all ease-in-out;
-}
-
-.card-container:hover img {
-  transform: scale(1.2);
-}
-/* pagination */
-.pagination-custom .page-item {
-  width: 50px;
-}
-.pagination-custom .page-item.active .page-link {
-  background-color: rgb(93, 137, 173);
-  color: white;
-}
 .feature {
-  background-color: rgb(93, 137, 173);
-}
-/* detail project */
-.image {
-  width: 90%;
-  height: 40rem;
-  margin: 25px auto;
-  border-radius: 20px;
-}
-.info-list {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-}
-/* agent */
-.agent-img{
-  height: 30rem; 
-}
-.user-img{
-  height:35rem;
-  max-width: 550px;
-  width: 100%;
-}
-.bg-image {
-  /* The image used */
-  /* background-image: url("photographer.jpg"); */
+  background-color: #080808; /* Red background color */
+  color: #ffffff; /* White text color */
+  /* padding: 10px 20px;  */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px;  
+  margin-right: 10px;  
 
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 700px;
-  width: 100%;
 }
-
-/* Position text in the middle of the page/image */
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
+.icons{
+  margin-top: 200px;  
 }
 
 
-/* seravices
- */
- 
-.search-bar{
-  max-width: 800px;
-  width: 100%;
-  height: 70px;
-  margin-right: 20px;
-  padding: 0 10px;
-}
-.search-bar:focus{
-    outline: none;
-}
-.search-bar::placeholder{
-  font-size: 24px;
-  color: #000;
-}
-.filter{
-  max-width: 800px;
-  width: 100%;
-  margin-top: 10px;
-}
-.btn-filter{
-  max-width: 150px;
-  width: 100%;
-  color: #000;
-  background-color: rgba(247, 245, 244, 0.7);
-  cursor: pointer;
-  border-radius: 50px;
-}
-.active{
-  background-color: rgb(101, 169, 223);
-  color: black;
-}
-
-/* footer */
-footer {
-  margin-top: 60px;
-  padding: 40px 0 40px 0;
-}
-/* responsive */
-@media screen and (max-width: 1200px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 992px) {
-  .card-item {
-    width: 20rem;
-  }
-}
-@media screen and (max-width: 576px) {
-  .cards {
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-  }
-}
-
-/* mah */
-.hy {
-  margin: 170px;
-  margin-top: 70px;
-}
-
-.about-us-card {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.card-text {
-  /* padding: 20px; */
-  margin: 30px;
-}
 
 
-.content {
-  margin: 200px;
-}
 
-.paragraph {
-  /* Add your styles for each <p> element here */
-  margin-left: 70px;
-}
 
-.paragraph1 {
-  /* Add your styles for each <p> element here */
-  margin-left: 70px;
-  margin-top: 40px;
-}
-
-.content6 {
-  text-align: center;
-}
-
-.list {
-  list-style-type: disc;
-  margin-left: 70px;
-  margin-top: 30px;
-}
-
-.py {
-  margin-right: 50px;
-}
-
-.content1 {
-  margin-top: 150px;
-}
-
-.card-item1 {
-  width: 20rem;
-  margin: 10px;
-}
-
-.line {
-  height: 1px;
-  background-color: black;
-  margin: 10px 0;
-}
 
 .centered {
-  text-align: center;
+  text-align: center; /* Center align the text */
+  margin-top: 30px; /* Add top margin */
 }
 
-.custom-card {
-  margin-top: 120px;
-  /* margin: 120px; */
+.centered span {
+  display: block; /* Display the span as a block element */
+  color: rgb(26, 26, 27); /* Set the text color */
+  font-weight: bold; /* Make the text bold */
+
 }
 
-.custom-card .card-body {
-  margin: 10px;
+.centered span::before, .centered span::after {
+
+  content: ""; /* Clear the default content */
+  display: inline-block;
+  width: 100%; /* Make the line span the full width */
+  border-bottom: 2px solid black; /* Add a solid line below the text */
+  margin: 0 10px; /* Adjust the spacing */
+}
+.list a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: list-item;
+  list-style-type: disc; /* You can change this to match your list style */
+  margin-left: 20px; /* Adjust this value as needed */
+  color: rgb(86, 153, 192); /* Set link color to blue */
+  transition: color 0.3s; /* Smooth transition for color change */
+
 }
 
-.custom-card p {
-  margin-top: 50px;
-  margin-left: 50px;
+.list a:hover {
+  color: darkblue; /* Change link color on hover */
 }
 
-.custom-card img {
-  /* max-width: 100%; */
-  /* height: auto; */
-  margin-top: 10px;
-  margin-left: 300px;
+
+.card-item1 {
+  transition: box-shadow 0.3s;
 }
 
-.container3 {
-  text-align: center;
-  margin-top: 20px;
+.card-item1:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Add shadow on hover */
 }
 
-.para {
-  margin-top: 10px;
-}
-
-.par {
-  margin-top: 0px;
-}
-.one {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.container4 {
+.centered-list {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh; 
 }
 
-.container4 h1 {
-  text-align: center;
-}
-
-.container4 ul li {
-  margin-bottom: 10px; 
-}
-
-.bg-blue {
-  background-color: rgb(23, 184, 233);
-}
-
-.a{
-  margin-bottom: 100px;
-
+.list2 {
+  text-align: center; /* Center the text within the list items */
 }
 
 
-.contact-card {
-  border: 1px solid #daceda; 
-  border-radius: 8px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
-  padding: 20px; 
-  margin-bottom: 20px; 
-}
+.t1{
 
-.contact-card h5 {
-  color: #333; 
-  font-weight: bold; 
+  margin-left: 100px; /* Adjust this value as needed */
+  margin-top: 50px; /* Adjust this value as needed */
+  margin-right: 100px; /* Adjust this value as needed */
 
 }
 
-.contact-card button {
-  margin-top: 15px; 
+.t1 > div > div {
+  border-bottom: 1px solid rgb(129, 127, 127);
+  padding-bottom: 5px; /* Adjust as needed */
+}
+.t1 > div > div:hover {
+  background-color: rgb(230, 223, 223); /* Change to desired color */
 }
 
-.contact-card p {
-  margin-bottom: 5px; 
-  font-size: 16px; 
-}
 
-.contact-card p:last-child {
-  margin-bottom: 0;
-}
-
-.form-control {
-  /* border-width: 1px; */
-  border-style: solid; 
-  border-color: #999595; /* Customize the border color */
-}
-
-/* .form-label {
-  font-weight: bold;
-} */

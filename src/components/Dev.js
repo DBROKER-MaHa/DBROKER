@@ -6,6 +6,15 @@ import { Link } from 'react-router-dom';
 function Dev() {
   const itemPaths = [
     "/Developers",
+    "/Ellington",
+    "/Damac",
+    "/Nakheel",
+    "/Binghatti",
+    "/Mag",
+    "/Select_Group",
+    "/Azizi",
+    "/Iman",
+    "/Reportage",
     // "/FAQ",
    
   ];
