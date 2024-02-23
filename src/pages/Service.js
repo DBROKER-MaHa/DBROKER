@@ -52,7 +52,7 @@ function Service() {
             <form classsName = 'd-flex flex-column ' >
              <div>
              <input type="text" className='search-bar w-80  border-0' onChange={handleSearch} placeholder="Search"/>
-              {/* <button className='btn-1 btn-serach border-0 fs-5'>Search</button> */}
+              
               </div> 
               <div className="filter d-flex
               justify-content-between">
