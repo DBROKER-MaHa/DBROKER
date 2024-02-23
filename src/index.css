@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -195,24 +196,192 @@ footer {
     flex-direction: column;
   }
 }
+=======
 
-/* mah */
-.hy {
-  margin: 170px;
-  margin-top: 70px;
+ 
+/* mah */ 
+.hy { 
+  margin: 170px; 
+  margin-top: 70px; 
+} 
+ 
+.about-us-card { 
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+} 
+ 
+.card-text { 
+  /* padding: 20px; */ 
+  margin: 30px; 
+} 
+ 
+ 
+.content { 
+  margin: 200px; 
+} 
+ 
+.paragraph { 
+  /* Add your styles for each <p> element here */ 
+  margin-left: 70px; 
+} 
+ 
+.paragraph1 { 
+  /* Add your styles for each <p> element here */ 
+  margin-left: 70px; 
+  margin-top: 40px; 
+} 
+ 
+.content6 { 
+  text-align: center; 
+  margin-top: 30px; 
+
+} 
+ 
+.list { 
+  list-style-type: disc; 
+  margin-left: 70px; 
+  margin-top: 30px; 
+} 
+ 
+.py { 
+  margin-right: 50px; 
+} 
+ 
+.content1 { 
+  margin-top: 75px; 
+} 
+ 
+.card-item1 { 
+  width: 20rem; 
+  margin: 10px; 
+} 
+ 
+.line { 
+  height: 1px; 
+  background-color: black; 
+  margin: 10px 0; 
+} 
+ 
+.centered { 
+  text-align: center; 
+} 
+ 
+.custom-card { 
+  margin-top: 120px; 
+  /* margin: 120px; */ 
+} 
+ 
+.custom-card .card-body { 
+  margin: 10px; 
+} 
+ 
+.custom-card p { 
+  margin-top: 50px; 
+  margin-left: 50px; 
+} 
+ 
+.custom-card img { 
+  /* max-width: 100%; */ 
+  /* height: auto; */ 
+  margin-top: 10px; 
+  margin-left: 300px; 
+} 
+ 
+.container3 { 
+  text-align: center; 
+  margin-top: 20px; 
+} 
+ 
+.para { 
+  margin-top: 10px; 
+} 
+ 
+.par { 
+  margin-top: 0px; 
+} 
+.one { 
+  margin-left: 50px; 
+  margin-right: 50px; 
+} 
+ 
+.container4 { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;  
+} 
+ 
+.container4 h1 { 
+  text-align: center; 
+} 
+ 
+.container4 ul li { 
+  margin-bottom: 10px;  
+} 
+ 
+.bg-blue { 
+  background-color: rgb(23, 184, 233); 
+} 
+ 
+.a{ 
+  margin-bottom: 100px; 
+ 
+} 
+ 
+ 
+.contact-card { 
+  border: 1px solid #daceda;  
+  border-radius: 8px;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);  
+  padding: 20px;  
+  margin-bottom: 20px;  
+} 
+ 
+.contact-card h5 { 
+  color: #333;  
+  font-weight: bold;  
+ 
+} 
+ 
+.contact-card button { 
+  margin-top: 15px;  
+} 
+ 
+.contact-card p { 
+  margin-bottom: 5px;  
+  font-size: 16px;  
+} 
+ 
+.contact-card p:last-child { 
+  margin-bottom: 0; 
+} 
+ 
+.form-control { 
+  /* border-width: 1px; */ 
+  border-style: solid;  
+  border-color: #999595; /* Customize the border color */ 
+} 
+ 
+/* .form-label { 
+  font-weight: bold; 
+} */
+
+.feature {
+  background-color: #080808; /* Red background color */
+  color: #ffffff; /* White text color */
+  /* padding: 10px 20px;  */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px;  
+  margin-right: 10px;  
+
+}
+.icons{
+  margin-top: 200px;  
 }
 
-.about-us-card {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
 
-.card-text {
-  /* padding: 20px; */
-  margin: 30px;
-}
 
 .content {
   margin: 200px;
@@ -223,138 +392,69 @@ footer {
   margin-left: 70px;
 }
 
-.paragraph1 {
-  /* Add your styles for each <p> element here */
-  margin-left: 70px;
-  margin-top: 40px;
-}
 
-.content6 {
-  text-align: center;
-}
 
-.list {
-  list-style-type: disc;
-  margin-left: 70px;
-  margin-top: 30px;
-}
 
-.py {
-  margin-right: 50px;
-}
-
-.content1 {
-  margin-top: 150px;
-}
-
-.card-item1 {
-  width: 20rem;
-  margin: 10px;
-}
-
-.line {
-  height: 1px;
-  background-color: black;
-  margin: 10px 0;
-}
 
 .centered {
-  text-align: center;
+  text-align: center; /* Center align the text */
+  margin-top: 30px; /* Add top margin */
 }
 
-.custom-card {
-  margin-top: 120px;
-  /* margin: 120px; */
+.centered span {
+  display: block; /* Display the span as a block element */
+  color: rgb(26, 26, 27); /* Set the text color */
+  font-weight: bold; /* Make the text bold */
+
 }
 
-.custom-card .card-body {
-  margin: 10px;
+.centered span::before, .centered span::after {
+
+  content: ""; /* Clear the default content */
+  display: inline-block;
+  width: 100%; /* Make the line span the full width */
+  border-bottom: 2px solid black; /* Add a solid line below the text */
+  margin: 0 10px; /* Adjust the spacing */
+}
+.list a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: list-item;
+  list-style-type: disc; /* You can change this to match your list style */
+  margin-left: 20px; /* Adjust this value as needed */
+  color: rgb(86, 153, 192); /* Set link color to blue */
+  transition: color 0.3s; /* Smooth transition for color change */
+
 }
 
-.custom-card p {
-  margin-top: 50px;
-  margin-left: 50px;
+.list a:hover {
+  color: darkblue; /* Change link color on hover */
 }
 
-.custom-card img {
-  /* max-width: 100%; */
-  /* height: auto; */
-  margin-top: 10px;
-  margin-left: 300px;
+
+.card-item1 {
+  transition: box-shadow 0.3s;
 }
 
-.container3 {
-  text-align: center;
-  margin-top: 20px;
+.card-item1:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Add shadow on hover */
 }
 
-.para {
-  margin-top: 10px;
-}
-
-.par {
-  margin-top: 0px;
-}
-.one {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.container4 {
+.centered-list {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+
 }
 
-.container4 h1 {
-  text-align: center;
+.list2 {
+  text-align: center; /* Center the text within the list items */
 }
+
 
 .container4 ul li {
   margin-bottom: 10px;
 }
 
-.bg-blue {
-  background-color: rgb(23, 184, 233);
-}
-
-.a {
-  margin-bottom: 100px;
-}
-
-.contact-card {
-  border: 1px solid #daceda;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.contact-card h5 {
-  color: #333;
-  font-weight: bold;
-}
-
-.contact-card button {
-  margin-top: 15px;
-}
-
-.contact-card p {
-  margin-bottom: 5px;
-  font-size: 16px;
-}
-
-.contact-card p:last-child {
-  margin-bottom: 0;
-}
-
-.form-control {
-  /* border-width: 1px; */
-  border-style: solid;
-  border-color: #999595; /* Customize the border color */
-}
-
-/* .form-label {
-  font-weight: bold;
-} */

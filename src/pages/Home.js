@@ -1,3 +1,4 @@
+
 import Landing from "../components/Landing";
 import { Form, Card } from 'react-bootstrap'; 
 import { Link } from "react-router-dom";
@@ -86,5 +87,6 @@ function Home() {
     </>
   );
 }
+
 
 export default Home;
