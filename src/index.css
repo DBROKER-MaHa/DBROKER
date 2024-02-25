@@ -527,3 +527,49 @@ footer {
   margin-bottom: 10px;
 }
 
+.bg-blue {
+  background-color: rgb(23, 184, 233); 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px; 
+  margin-bottom: 70px;  
+
+}
+
+.container7 {
+  text-align: center;
+}
+
+
+.search-bar2{
+
+  height: 60px; 
+
+}
+
+/* styles.css */
+.custom-search-button {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 8px 16px; /* Padding */
+  cursor: pointer; /* Cursor style */
+  margin-left: 40px;
+
+}
+
+.custom-search-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.pyk{
+  margin-top: 90px;
+
+
+}
+
+.icons{
+  margin-left: 200px;  
+}
