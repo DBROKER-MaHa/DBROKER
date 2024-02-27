@@ -88,10 +88,9 @@ Together, we envision a future where <span className="bold">DBROKER</span>, Real
       <section className="py-7 sec-newProjects">
         <div className=" w-50 container text-center d-flex flex-column align-items-center"
         >
-          <h2 className="container">Explore Our New Projects</h2>
+          <h2 className="container">Explore Our  Projects</h2>
           <p className="fs-5 text-center" >
-            Take a deep dive and browse homes for sale, original neighborhood
-            photos, resident reviews and local insights to find what is right
+            Take a deep dive and browse homes for sale, for rent, resident reviews and local insights to find what is right
             for you.
           </p>
         </div>

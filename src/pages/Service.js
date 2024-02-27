@@ -63,7 +63,7 @@ function Service() {
               </div> 
               <div className="filter d-flex
               justify-content-between">
-                <button type='button' value="All"  onClick={handleBtns} className = {`btn-filter border-0 p-1 fs-4 ${activeButton === 'All'?'active':''}`}>All</button>
+                <button type='button' value="All"  onClick={handleBtns} className ={`btn-filter border-0 p-1 fs-4 ${activeButton === 'All'?'active':''}`}>All</button>
                 <button type='button' value="Studio"  onClick={handleBtns} className={`btn-filter border-0 p-1 fs-4 ${activeButton === 'Studio'?'active':''}`}>Studio</button>
                 <button  type='button' value="Appartment" onClick={handleBtns} className={`btn-filter border-0 p-1 fs-4 ${activeButton === 'Appartment'?'active':''}`}>Appartment</button>
                 <button type='button' value="Office"  onClick={handleBtns} className={`btn-filter border-0 p-1 fs-4 ${activeButton === 'Office'?'active':''}`}>Office</button>

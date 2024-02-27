@@ -1,27 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Form, Card } from 'react-bootstrap';
+import {Card } from 'react-bootstrap';
+import Title from '../components/Title.js';
 import '../index.js';
 
 const Why_UsPage = () => {
   return (
 
-    <div>
+    <>
 
- <img
-              className="w-100 d-block " style={{height:"650px"}}
-              src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100"
-              alt="First slide"
-            />
+ 
 
 <section className="py-7">
-        <div className="bg-black text-white new-project d-flex align-items-center">
-          <h2 className="container">ABOUT US</h2>
-        </div>
-      </section> 
-    <Card className="hy">
-    {/* <Card.Img variant="top" src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100" alt="Image description" /> */}
-     
+  <Title title = "About Us"/>
+<Card className="container hy">
      <Card.Body>
         <Card.Title>Who we are?</Card.Title>
         <Card.Text>
@@ -56,7 +48,9 @@ const Why_UsPage = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-    </div>
+      </section> 
+    
+    </>
   );
 };
 
