@@ -42,10 +42,10 @@ const BinghattiProperties = () => {
 
 
 
+    <h2 className="content6" style={{ fontSize: '1.3rem' }}><strong> BINGHATTI APARTMENT PROJECTS</strong></h2>
 
 <div style={{ display: 'flex' }}>
   <div style={{ flex: 1, paddingRight: '10px' }}>
-    <h2 className="content6" style={{ fontSize: '1.3rem' }}><strong> BINGHATTI APARTMENT PROJECTS</strong></h2>
     
     
     <ul className="list" style={{ listStyleType: 'disc' }}>
@@ -71,7 +71,6 @@ const BinghattiProperties = () => {
   </div>
 
   <div style={{ flex: 1, paddingLeft: '10px' }}>
-    <h2 className="content6" style={{ fontSize: '1.3rem' }}><strong>DAMAC VILLA PROJECTS</strong></h2>
     <ul className="list" style={{ listStyleType: 'disc' }}>
   <li>► Binghatti Views – Dubai Silicon Oasis</li>
   <li>► Binghatti Platinum – Dubai Silicon Oasis</li>
@@ -95,7 +94,7 @@ const BinghattiProperties = () => {
   </div>
 </div>
 
-<h2 className="content6"><strong>Ellington Properties For Sale</strong></h2>
+<h2 className="content6"><strong>BINGHATTI PROJECTS FOR SALE</strong></h2>
 
 <section className="py">
 
